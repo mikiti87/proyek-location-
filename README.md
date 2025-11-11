@@ -23,3 +23,18 @@ untuk nomer 4 saya sebenarnya sudah sedikit paham jadi disana saya mengamati dib
 
 ![WhatsApp Image 2025-11-10 at 15 51 00 (1)](https://github.com/user-attachments/assets/4ed6e7bf-e525-432c-a439-f47f4502b733)
 ![WhatsApp Image 2025-11-10 at 15 51 00](https://github.com/user-attachments/assets/181cda2a-1c15-4474-b464-e63c5dd6e7b9)
+
+
+disini saya menambahkan juga untuk location sekarang 
+![WhatsApp Image 2025-11-11 at 20 35 11 (1)](https://github.com/user-attachments/assets/7229f976-3595-41d6-bc36-ca8efe89f619)
+![WhatsApp Image 2025-11-11 at 20 35 11](https://github.com/user-attachments/assets/04c16e25-cc4d-4d25-b8b8-196716aec5c5)
+
+jadi saya menambahkan di main.dart
+Menambahkan field _isLoading dan memanggil _handleGetLocation() di initState() agar aplikasi mencoba mendapatkan lokasi saat startup.
+
+Menambahkan CircularProgressIndicator di UI ketika _isLoading == true.
+Mengubah _handleGetLocation() untuk mengatur state loading dan menampilkan error apabila terjadi.
+ini untuk mengantisipasi agar tidak gagar total dan mengurangi adanya bug jadi kita membuat adanya error dulu agar bisa mengantisipasi error 
+
+karena menurut saya proyek yang bagus bukan proyek yang paling aman dan bukan juga paling gampang di hack tapi
+proyek yang paling aman adalah ketika kita bisa untuk mencoba untuk membuat error dan tau mana error itu dan bisa dijadikan pembelajaran sebelum di kasih tahu orang lain
